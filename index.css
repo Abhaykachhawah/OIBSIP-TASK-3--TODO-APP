@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background:#325aa8;
+}
+
+
+#container{
+  height: 500px;
+  width: 500px;
+  display: block;
+  margin-left: 50%;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+  padding:10%;
+  background-color: #325aa8;
+}
+#container>form>input{
+  margin: 10px;
+  display: block;
+
+  padding: 5px 5px;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+h1{
+    margin:auto;
+    font-size: 3rem;
+    padding: 10px;
+}
+label{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+button{
+    padding:5px;
+    background-color: #32a8a8;
+    cursor: pointer;
+    margin: 10px 62px;
+    border-radius: 5px solid white ;
+}
+
